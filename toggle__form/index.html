@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Toggle form</title>
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <main>
+      <form action="https://echo.htmlacademy.ru">
+         <h1>Fill the form!</h1>
+         <div>
+            <label for="name">First Name</label>
+            <input type="text" required minlength="4" id="name" name="fname" placeholder="Enter your first name">
+         </div>
+         <div>
+            <label for="name">Last Name</label>
+            <input type="text" required minlength="4" id="name" name="lname"placeholder="Enter your second name">
+         </div>
+         <div>
+            <label for="age">Age</label>
+            <input type="number" required min="18" id="age" name="age" placeholder="You must be over 18.">
+         </div>
+         <div>
+            <label for="email">Email</label>
+            <input type="email" required id="email" name="email" placeholder="Enter your email">
+         </div>
+
+      <button type="submit" class="submit-btn">Submit</button>
+         <button type="reset" class="reset-btn">Reset</button>
+
+         <p class="alert">If you fill the form properly, cross signs turn to tick signs.</p>
+      </form>
+
+   
+   </main>
+</body>
+</html>
